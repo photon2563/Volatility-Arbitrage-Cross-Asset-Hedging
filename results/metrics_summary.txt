@@ -1,0 +1,14 @@
+| Metric Category    | Quantitative Metric             | Dynamic Kalman (Proposed)   | Static OLS Benchmark   | Unhedged Basis Strategy   | S&P 500 Buy & Hold   |
+|--------------------|---------------------------------|-----------------------------|------------------------|---------------------------|----------------------|
+| Return Profiles    | CAGR (%)                        | 16.42%                      | 18.34%                 | 21.02%                    | 5.12%                |
+| Return Profiles    | Sharpe Ratio                    | 1.14                        | 0.88                   | 0.87                      | 0.18                 |
+| Tail-Risk Profiles | Sortino Ratio (Downside)        | 2.08                        | 1.45                   | 1.28                      | 0.26                 |
+| Tail-Risk Profiles | Max Drawdown (MDD %)            | -8.91%                      | -16.21%                | -32.43%                   | -45.37%              |
+| Tail-Risk Profiles | Calmar Ratio                    | 1.84                        | 1.13                   | 0.65                      | 0.11                 |
+| Tail-Risk Profiles | CVaR 99% (Expected Shortfall)   | -2.92%                      | -5.79%                 | -7.83%                    | -4.52%               |
+| Execution Stats    | Hit Rate (%)                    | 60.0%                       | 60.5%                  | 59.5%                     | N/A (Hold)           |
+| Execution Stats    | Win / Loss Ratio                | 1.33                        | 1.52                   | 1.80                      | N/A (Hold)           |
+| Execution Stats    | Profit Factor                   | 1.99                        | 2.33                   | 2.65                      | N/A (Hold)           |
+| Execution Stats    | S&P 500 Correlation Beta        | -0.06                       | -0.16                  | -0.29                     | 1.00 (Ref)           |
+| System Diagnostics | Algorithmic Risk Scaling Events | 117                         | 0 (Static)             | 0 (Naked)                 | 0 (Hold)             |
+| System Diagnostics | Total Frictions Paid ($)        | $1,172,609                  | $1,092,353             | $911,117                  | $77                  |
